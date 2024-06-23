@@ -1,0 +1,72 @@
+.mainpage-setting-css2{
+    margin: auto;
+        max-width: 1440px;
+        height: 400px;
+       margin:auto;
+}
+
+.new-tutorial{
+    padding: 50px;
+        padding-top: 50px;
+        margin: 0;
+        max-width: 1440px;
+        height: 1210px;
+        background: #555;
+        border-radius: 10px;
+        color: #f1f1f1;
+
+        .visitor{
+            font-size: large;
+        }
+
+        .new-tutorial-div{
+        padding: 50px;
+        padding-top: 20px;
+        margin: 0;
+        max-width: 1420px;
+        height: 1085px;
+        background: #f1f1f1;
+        border-radius: 10px;
+        color: black;
+        }
+
+        .new-coding{
+        padding: 10px;
+        margin: 0;
+        width: 400px;
+        height: 55px;
+        background: #3e56c4;
+        border-radius: 10px;
+        color:#f1f1f1;
+        }
+}
+
+.button-visit-css2{
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    height: 45px;
+    border-style: double;
+    background-color: var(--base-100);
+    &:hover{
+        
+        background-color: #949292;
+    }
+    a{
+        display: block;
+        border-radius: 20px;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 12px;
+        padding-right: 4px;
+        width: 100px;
+        height: 45px;
+        text-decoration: none;
+        color: black;
+        &:hover{
+            color: white;
+        }
+    }
+}
