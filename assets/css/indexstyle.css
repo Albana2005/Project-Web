@@ -23,6 +23,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    background: linear-gradient(90deg,#088395,#071952);;
     
     .mainpage-setting1{
         margin: auto;
@@ -51,6 +52,7 @@ body{
         background: var(--base-100);
         margin-top: 20px;
         border-radius: 10px;
+        background:  #4a4f69;;
 
         .visitor{
             font-size: large;
@@ -155,3 +157,14 @@ header{
         }
     }
 }
+.nav_image {
+    display: flex;
+    min-width: 55px;
+    justify-content: center;
+  }
+.nav_image img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
