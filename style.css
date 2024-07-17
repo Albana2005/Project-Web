@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #4070f4, #7c0962);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pendaftar {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(6, 6, 6, 0.1);
+    width: 350px;
+}
+
+.pendaftar h2 {
+    margin-bottom: 20px;
+}
+
+.pendaftar label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.pendaftar input[type="text"],
+.pendaftar input[type="email"],
+.pendaftar input[type="password"] {
+    width: 330px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #c2c2c2;
+    border-radius: 10px;
+}
+
+.pendaftar input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4c57af;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pendaftar input[type="submit"]:hover {
+    background-color: #4070f4;
+}
